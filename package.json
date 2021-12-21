@@ -5,7 +5,13 @@
   "repository": "git@github.com:costamatthew/rocketseat-node-chapter-I.git",
   "author": "Mateus Costa <mateusdsilvacosta@outlook.com>",
   "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
   "dependencies": {
     "express": "^4.17.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
   }
 }
